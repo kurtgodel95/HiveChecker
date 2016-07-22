@@ -1,0 +1,12 @@
+*.iml
+*.ipr
+*.iws
+.classpath
+.gradle
+.project
+.settings
+bin
+build
+ligradle
+oozie-jaxb/schema
+oozie-jaxb/src/main/java

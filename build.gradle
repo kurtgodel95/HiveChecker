@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+mainClassName='Main'
+dependencies{
+	//compile('org.apache.hive:hive-exec:0.8.1') {transitive = false}
+	//compile('org.apache.hive:hive-exec:2.1.0') {transitive = false}
+	compile('org.apache.hive:hive-exec:1.2.1') {transitive = false}
+	//compile 'org.slf4j:slf4j-api:1.7.7'
+	compile 'org.antlr:antlr:3.5.2'
+	compile 'com.kenai.nbpwr:org-apache-commons-logging:1.0.4-201003011305'
+
+}
+repositories{
+	mavenCentral()
+}
+
